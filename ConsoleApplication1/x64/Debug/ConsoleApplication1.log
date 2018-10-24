@@ -1,0 +1,13 @@
+﻿  ConsoleApplication1.cpp
+c:\users\gababarca\source\repos\consoleapplication1\league of gems\consoleapplication1\adt\list.h(13): warning C4005: 'NULL': macro redefinition
+  d:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\vcruntime.h(220): note: see previous definition of 'NULL'
+  Djikstra.cpp
+c:\users\gababarca\source\repos\consoleapplication1\league of gems\consoleapplication1\adt\list.h(13): warning C4005: 'NULL': macro redefinition
+  d:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\vcruntime.h(220): note: see previous definition of 'NULL'
+  library.cpp
+c:\users\gababarca\source\repos\consoleapplication1\league of gems\consoleapplication1\adt\list.h(13): warning C4005: 'NULL': macro redefinition
+  d:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\vcruntime.h(220): note: see previous definition of 'NULL'
+  Generating Code...
+c:\users\gababarca\source\repos\consoleapplication1\league of gems\consoleapplication1\maps\djikstra.cpp(37): warning C4715: 'Djikstra::Search': not all control paths return a value
+c:\users\gababarca\source\repos\consoleapplication1\league of gems\consoleapplication1\adt\list.h(159): warning C4715: 'List<int>::get': not all control paths return a value
+  ConsoleApplication1.vcxproj -> C:\Users\gababarca\source\repos\ConsoleApplication1\League of Gems\x64\Debug\ConsoleApplication1.exe

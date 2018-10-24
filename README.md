@@ -1,1 +1,1 @@
-LoG
+League of Gems
