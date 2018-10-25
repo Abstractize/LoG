@@ -49,7 +49,16 @@ List<int> Djikstra::asap(List<int>  v, int src, int fin){
     }
     return b;
 };
+/*Este Djikstra trabaja solo con el Source (nodo inicial) lo que no sirve para ni mierda,
+porque calcula la ruta de todos los PUTOS NODOS al inicial y no da una ruta, si no la ruta
+de todos los malditos nodos, si se trabaja una matriz de 50x50 (grande), entonces se la mem no va a dar
 
+*Hay una manera, de hacer que esto sirva y es haciendo un break en el for, cuando ya se calculó la distancia
+al nodo final.
+
+Pero hay que crear un arreglo que guarde las rutas por nodo. Y de la ruta mas corta.
+Además no posee restricciones de los puntos que no se pueden obtener (los 0);
+*/
 List<int> Djikstra::dijkstra(int src, int fin)
 {
     std::cout <<"iniciando algoritmo..." << std::endl;
